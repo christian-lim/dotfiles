@@ -38,3 +38,9 @@ alias vollow="osascript -e 'set volume output volume 25'"
 
 # Locks screen. Gives me a headache 50% of the time
 alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# elasticsearch - gradle commands
+alias g-spot="./gradlew spotlessJavaCheck"
+alias g-apply="./gradlew spotlessApply"
+alias g-test="./gradlew check"
+

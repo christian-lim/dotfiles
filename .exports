@@ -18,3 +18,7 @@ export PIP_VIRTUALENV_BASE=$WORKON_HOME
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
         source $(brew --prefix)/etc/bash_completion
 fi
+
+# Java virtualenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
