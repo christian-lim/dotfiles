@@ -5,3 +5,6 @@ for file in ~/.{path,bash_prompt,exports,aliases,extra}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
+
+# Autocorrect typos in path names when using `cd`
+shopt -s cdspell;
