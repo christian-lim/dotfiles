@@ -30,3 +30,6 @@ ulimit -n 8096
 
 # Node
 export PATH="/usr/local/opt/node@10/bin:$PATH"
+
+# Rust
+export PATH="$HOME/.cargo/bin:$PATH" 
